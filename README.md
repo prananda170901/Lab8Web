@@ -17,3 +17,21 @@
 ## Menjalankan MySQL
 
 <br>Untuk Menjalankan MySQL server dari menu XAMPP control.
+![p](img/xampp.png)
+
+## Mengakses MySQL Client menggunakan PHP Myadmin
+
+<br>Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka Browser: http://localhost/phpmyadmin/
+![p](img/php%20myadmin.png)
+
+## Membuat Database: Studi Kasus Data Barang
+
+![p](img/contoh%20data%20base.png)
+
+## Membuat Database
+
+```
+CREATE DATABASE latihan1;
+```
+
+![p](img/data%20base%20latihan%201.png)
