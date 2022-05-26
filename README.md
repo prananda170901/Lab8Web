@@ -62,3 +62,14 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ```
 
 ![p](img/menambahkan%20data.png)
+
+## Membuat Program CRUD
+
+<br>Buat folder lab8_php_database pada root directory web server (d:/xampp/htdocs)
+![p](img/crud.png)
+<br>Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
+![p](img/akses%20direktory.png)
+
+## Membuat File koneksi database
+
+<br>buat file baru dengan nama koneksi.php
