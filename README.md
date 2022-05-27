@@ -231,3 +231,4 @@ stok, gambar) ';
 ```
 
 ![p](img/tambah%20barang.png)
+![p](img/tambah%20barang%202.png)
