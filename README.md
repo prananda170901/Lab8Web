@@ -337,3 +337,16 @@ function is_select($var, $val)
 ## Menghapus data(delete)
 
 <br>Buat file baru dengan nama hapus.php
+
+```
+<?php
+include_once 'koneksi.php';
+$id = $_GET['id'];
+$sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
+$result = mysqli_query($conn, $sql);
+header('location: index.php');
+?>
+```
+
+![p](img/hapus.png)
+![p](img/hapus%202.png)
