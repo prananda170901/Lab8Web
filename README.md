@@ -134,16 +134,20 @@ $row['nama'];?>"></td>
  <td><?= $row['harga_beli'];?></td>
  <td><?= $row['harga_jual'];?></td>
  <td><?= $row['stok'];?></td>
- <td><?= $row['id_barang'];?></td>
- </tr>
- <?php endwhile; else: ?>
- <tr>
+ <td><a href="">ubah</a> / <a href="">hapus</a> </td>
+ </tr> <?php endwhile; else: ?> <tr>
  <td colspan="7">Belum ada data</td>
- </tr>
- <?php endif; ?>
+ </tr> <?php endif; ?>
  </table>
  </div>
  </div>
 </body>
 </html>
+
 ```
+
+![p](img/menampilkan%20data.png)
+
+## Menambah Data(Create)
+
+<br>Buat file baru dengan nama tambah.php
